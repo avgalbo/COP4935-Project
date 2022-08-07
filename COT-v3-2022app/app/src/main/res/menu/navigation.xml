@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_text_analysis"
+        android:icon="@drawable/summary_log"
+        android:title="Summary"
+        android:textColor="@color/white"
+        android:background="@color/white"/>
+
+    <item
+        android:id="@+id/navigation_image_analysis"
+        android:icon="@drawable/details"
+        android:title="@string/title_details"
+        android:textColor="@color/white"
+        android:background="@color/white"/>
+
+</menu>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="0dp"
+    card_view:cardMaxElevation="5dp"
+    card_view:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="6dp"
+            android:contentDescription="icon"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/Apk_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            android:lines="1"
+            android:text="Test App"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/Apk_Package_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Apk_Name"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_toEndOf="@+id/imageview"
+            android:layout_toRightOf="@+id/imageview"
+            android:gravity="top"
+            android:lines="1"
+            android:text="com.testapp"
+            android:textColor="#ADA3A3"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtInstallStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_below="@+id/Apk_Package_Name"
+            android:layout_alignStart="@+id/Apk_Package_Name"
+            android:layout_alignLeft="@+id/Apk_Package_Name"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="6dp"
+            android:gravity="top"
+            android:lines="1"
+            android:text="com.testapp"
+            android:textColor="#ADA3A3"
+            android:textSize="12sp"
+            tools:text="Installed" />
+
+        <TextView
+            android:id="@+id/txtInstallTime"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_below="@+id/Apk_Package_Name"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="6dp"
+            android:layout_toEndOf="@+id/txtInstallStatus"
+            android:layout_toRightOf="@+id/txtInstallStatus"
+            android:gravity="top"
+            android:lines="1"
+            android:text="Sat, xyz"
+            android:textColor="#ADA3A3"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

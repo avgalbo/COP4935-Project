@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#004E64</color>-->
+    <color name="colorPrimary">#3b1055</color>
+<!--    <color name="colorPrimaryDark">#004E64</color>-->
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#57CC99</color>
+    <color name="bg_slider_screen1">#f4b241</color>
+    <color name="bg_slider_screen2">#5577ff</color>
+    <color name="bg_slider_screen3">#ff78bb</color>
+    <color name="bg_slider_screen4">#bb00ff</color>
+    <color name="parent_or_child_background">#E5F6EB</color>
+    <color name="parent_or_child_background1">#AEC45F</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#ffa000</color>
+    <color name="dot_inactive_screen2">#008c57</color>
+    <color name="dot_inactive_screen3">#0e1e49</color>
+    <color name="dot_inactive_screen4">#008c57</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#f9c772</color>
+    <color name="dot_active_screen2">#74f7c5</color>
+    <color name="dot_active_screen3">#3a67e0</color>
+    <color name="dot_active_screen4">#74f7c5</color>
+
+    <array name="array_dot_active">
+        <item>@color/icon</item>
+        <item>@color/icon</item>
+        <item>@color/icon</item>
+        <item>@color/icon</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+    </array>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#00000000</color>
+    <color name="icon">#004E64</color>
+    <color name="text">#404B57</color>
+
+    <!-- Pie Chart colors -->
+<!--    <color name="positive">#9FFFCB</color>-->
+    <color name="positive">#aec45f</color>
+    <color name="negative">#38A3A5</color>
+    <color name="neutral">#0BBDD8</color>
+    <color name="mixed">#57CC99</color>
+
+    <color name="white">#FFFFFF</color>
+
+
+    <!--  TEENOVATE WEBSITE colors  -->
+    <color name="TeenovatePurple">#3b1055</color>
+    <color name="TeenovateBlue">#01a8f4</color>
+    <color name="TeenovateGreen">#aec45f</color>
+
+
+
+</resources>

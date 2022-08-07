@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "375757255707",
+    "project_id": "cotv3-6e158",
+    "storage_bucket": "cotv3-6e158.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375757255707:android:62701d2b74065db707f4be",
+        "android_client_info": {
+          "package_name": "edu.ucf.CD9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375757255707-58dbfp93qet5fcjsq562d8eqsqlp2e44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ucf.CD9",
+            "certificate_hash": "22a39d1f7f306b5ba421c19f591a494c0d56973b"
+          }
+        },
+        {
+          "client_id": "375757255707-irc8imgsj2sg7ak7n42h13dg82mspaub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ucf.CD9",
+            "certificate_hash": "801c5f01cb07a04ca639d639d05fdc6348bfdf4d"
+          }
+        },
+        {
+          "client_id": "375757255707-hao3bt67vuk0nipjcufoj11r4o67e19t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHqaFqyPBaJ0PiRZNX-k45DQgzRU3wfuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375757255707-hao3bt67vuk0nipjcufoj11r4o67e19t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

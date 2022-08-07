@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">COT</string>
+    <string name="teen_s_text_messages">Teen\'s Text Messages</string>
+    <string name="fetch_texts">Fetch Texts</string>
+    <string name="server_client_id">375757255707-hao3bt67vuk0nipjcufoj11r4o67e19t.apps.googleusercontent.com</string>
+    <string name="next">NEXT</string>
+    <string name="slide_1_title_parent">Welcome to the Parent\'s Dashboard</string>
+    <string name="slide_1_desc_parent">This app will allow you to monitor your teen\’s text messaging activity.</string>
+    <string name="slide_2_title_parent">Let\'s Get Started</string>
+    <string name="slide_2_desc_parent">Please sign-in using your google account</string>
+    <string name="slide_3_title_parent">Add Teen</string>
+    <string name="slide_4_title_parent">Pair With Teen Device</string>
+    <string name="slide_4_desc_parent">Enter this code in your Teen\'s app to pair</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>s
+    <string name="mms_content">MMS Content</string>
+    <string name="uninstalled">Uninstalled</string>
+    <string name="installed">Installed</string>
+    <string name="default_notification_channel_id">edu.ucf.parentdashboard.ch1</string>
+    <string name="enter_name">Enter your Teen\'s first name:</string>
+    <string name="happy_monitoring">Once your Teen\'s texts are processed, you will be able to choose the initial Circle of Trust. Text processing may take a while if there are a lot of messages.</string>
+    <string name="texts_received_by_child">Texts received by Teen</string>
+    <string name="texts_sent_by_child">Texts sent by Teen</string>
+    <string name="title_activity_analysis">AnalysisActivity</string>
+    <string name="title_details">Details</string>
+    <string name="title_summary">Summary</string>
+    <string name="title_videos">Videos</string>
+    <string name="view_child_s_texts">View Teen\'s Texts</string>
+    <string name="view_child_s_apps">View Teen\'s Apps</string>
+
+    <string name="title_activity_parent_or_child">Welcome to CD9</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="Parent_Or_Child">Choose whose device is being used.</string>
+    <string name="slide_1_title">Welcome to The Teen Companion App</string>
+    <string name="slide_1_desc">This app will allow your parent to monitor your text messages.</string>
+    <string name="slide_2_title">Let\'s Get Started</string>
+    <string name="slide_2_desc">In order for this app to work properly, we will need you to grant the app permission to monitor your phone. After clicking “Next,” please select “Allow” when prompted.</string>
+    <string name="slide_3_title">Let\'s Get Started</string>
+    <string name="slide_3_desc">Enter the code given to you by your parent.</string>
+    <string name="permission_read_phone_state_rationale">Please grant permission to register this device for text monitoring.</string>
+    <string name="phone_state_must">Read Phone State permission must be granted. Exiting…</string>
+    <string name="device_admin_requestinfo">Activating Device Administrator is critical for the functioning of Parental Control Text Monitoring App. It ensures that the monitoring runs uninterrupted.</string>
+    <string name="accessibility_service_name">Parental Monitoring</string>
+    <string name="accessibility_service_description">Required service for Parental Control</string>
+    <string name="hold_on">Hold on, we are finishing setup...</string>
+    <string name="setup_may_take_a_while">Setup may take a while, so please be patient and don’t close the app until it is finished</string>
+    <string name="sentiment_analysis_for_text_messages">Sentiment Analysis for Text Messages</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="mixed">Mixed</string>
+    <string name="neutral">Neutral</string>
+    <string name="texts_received_by_you">Texts received by you</string>
+    <string name="texts_sent_by_you">Texts sent by you</string>
+    <string name="no_images_exchanged">No images have any risk flags.</string>
+    <string name="word_cloud_header">Word Cloud for Images Sent/Received</string>
+    <string name="finishing">Finishing...</string>
+
+    <string name="slide_part2_screen1">A Brief Tutorial on CoT</string>
+    <string name="slide_part2_screen1_desc">Your parent is choosing the initial Circle of Trust. While waiting, here is some helpful information about the application.</string>
+    <string name="slide_part2_screen2">Trusted and Untrusted Contacts</string>
+    <string name="slide_part2_screen2_trusted">Trusted</string>
+    <string name="tutorial_trusted">Trusted Contacts: if a contact is "Trusted", texts will not be explicitly displayed rather a sentiment analysis of each message will be provided. (Warning: Even if a contact is "Trusted", flagged content WILL be displayed explicitly to the Parent!)</string>
+    <string name="tutorial_untrusted">Untrusted Contacts: if a contact is not "Trusted", all texts and media exchanged WILL be explicitly displayed to the Parent.</string>
+    <string name="tutorial_pending">Pending: a contact has been requested to be placed or removed from the Circle of Trust</string>
+    <string name="tutorial_options">Parent or Teen may request or deny a contact to be added or removed from the Circle.</string>
+
+    <string name="notRecommended">We recommend <b>not</b> adding these contacts to the Circle of Trust. \n<br/> Select a contact below to override.</string>
+    <string name="recommended">We recommend adding these contacts to the Circle of Trust. \n<br/> Select a contact below to override.</string>
+
+
+</resources>
